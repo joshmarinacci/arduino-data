@@ -1,0 +1,10 @@
+{
+    "id":"nespad",
+    "name":"NESPad",
+    "description":"NESpad/SNESpad: Nintendo Joystick/Game Pad Libraries for Arduino",
+    "tags":["joystick","input"],
+    "source":"git",
+    "location":"https://github.com/joshmarinacci/nespad-arduino.git",
+    "platforms":["avr"],
+    "homepage":"https://github.com/joshmarinacci/nespad-arduino"
+}
