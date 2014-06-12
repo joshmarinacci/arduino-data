@@ -1,0 +1,24 @@
+{
+    "name": "Arduino Mega 2560 or Mega ADK",
+    "upload": {
+        "protocol": "wiring",
+        "maximum_size": "258048",
+        "speed": "115200"
+    },
+    "bootloader": {
+        "low_fuses": "0xFF",
+        "high_fuses": "0xD8",
+        "extended_fuses": "0xFD",
+        "path": "stk500v2",
+        "file": "stk500boot_v2_mega2560.hex",
+        "unlock_bits": "0x3F",
+        "lock_bits": "0x0F"
+    },
+    "build": {
+        "mcu": "atmega2560",
+        "f_cpu": "16000000L",
+        "core": "arduino",
+        "variant": "mega"
+    },
+    "id": "mega2560"
+}

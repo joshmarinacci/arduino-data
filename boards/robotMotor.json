@@ -1,0 +1,27 @@
+{
+    "name": "Arduino Robot Motor",
+    "upload": {
+        "protocol": "avr109",
+        "maximum_size": "28672",
+        "speed": "57600",
+        "disable_flushing": "true"
+    },
+    "bootloader": {
+        "low_fuses": "0xff",
+        "high_fuses": "0xd8",
+        "extended_fuses": "0xcb",
+        "path": "caterina-Arduino_Robot",
+        "file": "Caterina-Robot-Motor.hex",
+        "unlock_bits": "0x3F",
+        "lock_bits": "0x2F"
+    },
+    "build": {
+        "mcu": "atmega32u4",
+        "f_cpu": "16000000L",
+        "vid": "0x2341",
+        "pid": "0x8039",
+        "core": "robot",
+        "variant": "robot_motor"
+    },
+    "id": "robotMotor"
+}

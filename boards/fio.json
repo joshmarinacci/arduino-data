@@ -1,5 +1,5 @@
 {
-    "name": "Arduino Nano w/ ATmega328",
+    "name": "Arduino Fio",
     "upload": {
         "protocol": "arduino",
         "maximum_size": "30720",
@@ -9,16 +9,16 @@
         "low_fuses": "0xFF",
         "high_fuses": "0xDA",
         "extended_fuses": "0x05",
-        "path": "atmega",
-        "file": "ATmegaBOOT_168_atmega328.hex",
+        "path": "arduino:atmega",
+        "file": "ATmegaBOOT_168_atmega328_pro_8MHz.hex",
         "unlock_bits": "0x3F",
         "lock_bits": "0x0F"
     },
     "build": {
         "mcu": "atmega328p",
-        "f_cpu": "16000000L",
+        "f_cpu": "8000000L",
         "core": "arduino",
         "variant": "eightanaloginputs"
     },
-    "id": "nano328"
+    "id": "fio"
 }

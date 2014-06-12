@@ -1,5 +1,5 @@
 {
-    "name": "Arduino Uno",
+    "name": "Arduino Ethernet",
     "upload": {
         "protocol": "arduino",
         "maximum_size": "32256",
@@ -15,10 +15,10 @@
         "lock_bits": "0x0F"
     },
     "build": {
+        "variant": "standard",
         "mcu": "atmega328p",
         "f_cpu": "16000000L",
-        "core": "arduino",
-        "variant": "standard"
+        "core": "arduino"
     },
-    "id": "uno"
+    "id": "ethernet"
 }

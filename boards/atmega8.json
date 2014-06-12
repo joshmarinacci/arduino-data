@@ -1,0 +1,23 @@
+{
+    "name": "Arduino NG or older w/ ATmega8",
+    "upload": {
+        "protocol": "arduino",
+        "maximum_size": "7168",
+        "speed": "19200"
+    },
+    "bootloader": {
+        "low_fuses": "0xdf",
+        "high_fuses": "0xca",
+        "path": "atmega8",
+        "file": "ATmegaBOOT-prod-firmware-2009-11-07.hex",
+        "unlock_bits": "0x3F",
+        "lock_bits": "0x0F"
+    },
+    "build": {
+        "mcu": "atmega8",
+        "f_cpu": "16000000L",
+        "core": "arduino",
+        "variant": "standard"
+    },
+    "id": "atmega8"
+}

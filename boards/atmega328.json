@@ -1,16 +1,16 @@
 {
-    "name": "Arduino Uno",
+    "name": "Arduino Duemilanove w/ ATmega328",
     "upload": {
         "protocol": "arduino",
-        "maximum_size": "32256",
-        "speed": "115200"
+        "maximum_size": "30720",
+        "speed": "57600"
     },
     "bootloader": {
-        "low_fuses": "0xff",
-        "high_fuses": "0xde",
+        "low_fuses": "0xFF",
+        "high_fuses": "0xDA",
         "extended_fuses": "0x05",
-        "path": "optiboot",
-        "file": "optiboot_atmega328.hex",
+        "path": "atmega",
+        "file": "ATmegaBOOT_168_atmega328.hex",
         "unlock_bits": "0x3F",
         "lock_bits": "0x0F"
     },
@@ -20,5 +20,5 @@
         "core": "arduino",
         "variant": "standard"
     },
-    "id": "uno"
+    "id": "atmega328"
 }

@@ -1,24 +1,24 @@
 {
-    "name": "Arduino Nano w/ ATmega328",
+    "name": "Arduino Mega (ATmega1280)",
     "upload": {
         "protocol": "arduino",
-        "maximum_size": "30720",
+        "maximum_size": "126976",
         "speed": "57600"
     },
     "bootloader": {
         "low_fuses": "0xFF",
         "high_fuses": "0xDA",
-        "extended_fuses": "0x05",
+        "extended_fuses": "0xF5",
         "path": "atmega",
-        "file": "ATmegaBOOT_168_atmega328.hex",
+        "file": "ATmegaBOOT_168_atmega1280.hex",
         "unlock_bits": "0x3F",
         "lock_bits": "0x0F"
     },
     "build": {
-        "mcu": "atmega328p",
+        "mcu": "atmega1280",
         "f_cpu": "16000000L",
         "core": "arduino",
-        "variant": "eightanaloginputs"
+        "variant": "mega"
     },
-    "id": "nano328"
+    "id": "mega"
 }

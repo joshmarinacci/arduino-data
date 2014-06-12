@@ -1,16 +1,16 @@
 {
-    "name": "Arduino Uno",
+    "name": "Arduino Mini w/ ATmega328",
     "upload": {
         "protocol": "arduino",
-        "maximum_size": "32256",
+        "maximum_size": "28672",
         "speed": "115200"
     },
     "bootloader": {
         "low_fuses": "0xff",
-        "high_fuses": "0xde",
+        "high_fuses": "0xd8",
         "extended_fuses": "0x05",
         "path": "optiboot",
-        "file": "optiboot_atmega328.hex",
+        "file": "optiboot_atmega328-Mini.hex",
         "unlock_bits": "0x3F",
         "lock_bits": "0x0F"
     },
@@ -18,7 +18,7 @@
         "mcu": "atmega328p",
         "f_cpu": "16000000L",
         "core": "arduino",
-        "variant": "standard"
+        "variant": "eightanaloginputs"
     },
-    "id": "uno"
+    "id": "mini328"
 }

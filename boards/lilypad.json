@@ -1,0 +1,24 @@
+{
+    "name": "LilyPad Arduino w/ ATmega168",
+    "upload": {
+        "protocol": "arduino",
+        "maximum_size": "14336",
+        "speed": "19200"
+    },
+    "bootloader": {
+        "low_fuses": "0xe2",
+        "high_fuses": "0xdd",
+        "extended_fuses": "0x00",
+        "path": "lilypad",
+        "file": "LilyPadBOOT_168.hex",
+        "unlock_bits": "0x3F",
+        "lock_bits": "0x0F"
+    },
+    "build": {
+        "mcu": "atmega168",
+        "f_cpu": "8000000L",
+        "core": "arduino",
+        "variant": "standard"
+    },
+    "id": "lilypad"
+}

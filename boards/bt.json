@@ -1,0 +1,25 @@
+{
+    "name": "Arduino BT w/ ATmega168",
+    "upload": {
+        "protocol": "arduino",
+        "maximum_size": "14336",
+        "speed": "19200",
+        "disable_flushing": "true"
+    },
+    "bootloader": {
+        "low_fuses": "0xff",
+        "high_fuses": "0xdd",
+        "extended_fuses": "0x00",
+        "path": "bt",
+        "file": "ATmegaBOOT_168.hex",
+        "unlock_bits": "0x3F",
+        "lock_bits": "0x0F"
+    },
+    "build": {
+        "mcu": "atmega168",
+        "f_cpu": "16000000L",
+        "core": "arduino",
+        "variant": "eightanaloginputs"
+    },
+    "id": "bt"
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Arduino Pro or Pro Mini (3.3V, 8 MHz) w/ ATmega168",
+    "upload": {
+        "protocol": "arduino",
+        "maximum_size": "14336",
+        "speed": "19200"
+    },
+    "bootloader": {
+        "low_fuses": "0xc6",
+        "high_fuses": "0xdd",
+        "extended_fuses": "0x00",
+        "path": "atmega",
+        "file": "ATmegaBOOT_168_pro_8MHz.hex",
+        "unlock_bits": "0x3F",
+        "lock_bits": "0x0F"
+    },
+    "build": {
+        "mcu": "atmega168",
+        "f_cpu": "8000000L",
+        "core": "arduino",
+        "variant": "standard"
+    },
+    "id": "pro"
+}
