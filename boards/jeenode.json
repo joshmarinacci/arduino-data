@@ -1,0 +1,26 @@
+{
+    "name": "JeeNode v6",
+    "upload": {
+        "protocol": "arduino",
+        "maximum_size": "32256",
+        "speed": "115200"
+    },
+    "bootloader": {
+        "low_fuses": "0xff",
+        "high_fuses": "0xde",
+        "extended_fuses": "0x05",
+        "path": "optiboot",
+        "file": "optiboot_atmega328.hex",
+        "unlock_bits": "0x3F",
+        "lock_bits": "0x0F"
+    },
+    "build": {
+        "mcu": "atmega328p",
+        "f_cpu": "16000000L",
+        "core": "arduino",
+        "variant": "standard"
+    },
+    "id": "jeenode",
+    "homepage": "http://jeelabs.net/projects/hardware/wiki/JeeNode",
+    "vendor":"JeeLabs"
+}
