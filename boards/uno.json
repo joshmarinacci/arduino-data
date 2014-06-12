@@ -20,5 +20,7 @@
         "core": "arduino",
         "variant": "standard"
     },
-    "id": "uno"
+    "id": "uno",
+    "homepage": "http://arduino.cc/en/Main/arduinoBoardUno",
+    "vendor":"Arduino CC"
 }
