@@ -1,0 +1,28 @@
+{
+    "id":"uno",
+    "name":"Arduino Uno",
+    "upload": {
+        "protocol":"arduino",
+        "maximum_size":"32256",
+        "speed":"115200"
+    },
+    "bootloader": {
+        "low_fuses":"0xff",
+        "high_fuses":"0xde",
+        "extended_fuses":"0x05",
+        "path":"optiboot",
+        "file":"optiboot_atmega328.hex",
+        "unlock_bits":"0x3F",
+        "lock_bits":"0x0F"
+    },
+    "build":{
+        "mcu":"atmega328p",
+        "f_cpu":"16000000L",
+        "core":"arduino",
+        "variant":"standard"
+    },
+    "vid":"",
+    "pid":"",
+    "manufacturer":"Arduino CC",
+    "homepage":"http://www.arduino.cc/en/Main/arduinoBoardUno"
+}

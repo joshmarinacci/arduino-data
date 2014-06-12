@@ -1,0 +1,28 @@
+{
+    "id":"nano328",
+    "name":"Arduino Nano w/ ATmega328",
+    "upload": {
+        "protocol":"arduino",
+        "maximum_size":"30720",
+        "speed":"57600"
+    },
+    "bootloader": {
+        "low_fuses":"0xFF",
+        "high_fuses":"0xDA",
+        "extended_fuses":"0x05",
+        "path":"atmega",
+        "file":"ATmegaBOOT_168_atmega328.hex",
+        "unlock_bits":"0x3F",
+        "lock_bits":"0x0F"
+    },
+    "build":{
+        "mcu":"atmega328p",
+        "f_cpu":"16000000L",
+        "core":"arduino",
+        "variant":"eightanaloginputs"
+    },
+    "vid":"",
+    "pid":"",
+    "manufacturer":"Arduino CC",
+    "homepage":"http://arduino.cc/en/Main/arduinoBoardNano"
+}
