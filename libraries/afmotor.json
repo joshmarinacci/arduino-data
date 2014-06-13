@@ -1,0 +1,10 @@
+{
+    "id":"afmotor",
+    "name":"AFMotor",
+    "description":"Adafruit Motor shield library",
+    "tags":["motor"],
+    "source":"git",
+    "location":"https://github.com/adafruit/Adafruit-Motor-Shield-library.git",
+    "platforms":["avr"],
+    "homepage":"https://github.com/adafruit/Adafruit-Motor-Shield-library"
+}
