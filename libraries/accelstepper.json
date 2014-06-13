@@ -1,0 +1,10 @@
+{
+    "id":"accelstepper",
+    "name":"AccelStepper",
+    "description":"Provides an object-oriented interface for 2, 3 or 4 pin stepper motors",
+    "tags":["motor","stepper"],
+    "source":"http",
+    "location":"http://www.airspayce.com/mikem/arduino/AccelStepper/AccelStepper-1.41.zip",
+    "platforms":["avr"],
+    "homepage":"http://www.airspayce.com/mikem/arduino/AccelStepper/index.html"
+}
