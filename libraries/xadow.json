@@ -1,0 +1,10 @@
+{
+    "id":"xadow",
+    "name":"Xadow Main Board",
+    "description":"Control user led, monitor battery, sleep mode; for Xadow Mainboard",
+    "tags":["led","xadow","battery"],
+    "source":"git",
+    "location":"https://github.com/Seeed-Studio/Xadow_MainBoard.git",
+    "platforms":["avr"],
+    "homepage":"https://github.com/Seeed-Studio/Xadow_MainBoard.git"
+}
