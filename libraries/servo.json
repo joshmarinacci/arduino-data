@@ -1,0 +1,10 @@
+{
+    "id":"servo",
+    "name":"Servo",
+    "description":"Control RC (hobby) servo motors",
+    "tags":["standard"],
+    "source":"ide",
+    "location":"Servo",
+    "platforms":["avr"],
+    "homepage":"http://arduino.cc/en/Reference/Servo"
+}

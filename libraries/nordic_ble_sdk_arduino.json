@@ -1,0 +1,11 @@
+{
+    "id":"nordic_ble_sdk_arduino",
+    "name":"Nordic BLE Arduino lib",
+    "description":"blah",
+    "tags":["ble"],
+    "source":"git",
+    "location":"https://github.com/NordicSemiconductor/ble-sdk-arduino.git",
+    "path":"libraries/BLE",
+    "platforms":["avr"],
+    "homepage":"https://github.com/NordicSemiconductor/ble-sdk-arduino"
+}
