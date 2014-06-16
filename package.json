@@ -1,0 +1,6 @@
+{
+    "name":"arduinodata",
+    "description":"computable dataset for Arduino devices and libraries",
+    "author": "Josh Marinacci <joshua@marinacci.org>",
+    "version":"0.1.0"    
+}
