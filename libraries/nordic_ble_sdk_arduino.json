@@ -1,8 +1,8 @@
 {
     "id":"nordic_ble_sdk_arduino",
     "name":"Nordic BLE Arduino lib",
-    "description":"blah",
-    "tags":["ble"],
+    "description":"core support lib for Nordic based BLE shields",
+    "tags":["ble","serial"],
     "source":"git",
     "location":"https://github.com/NordicSemiconductor/ble-sdk-arduino.git",
     "path":"libraries/BLE",

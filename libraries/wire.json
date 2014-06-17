@@ -2,7 +2,7 @@
     "id":"wire",
     "name":"Wire",
     "description":"Two Wire Interface (TWI/I2C) for sending and receiving data over a net of devices or sensors",
-    "tags":["standard"],
+    "tags":["standard","serial"],
     "source":"ide",
     "location":"Wire",
     "platforms":["avr"],

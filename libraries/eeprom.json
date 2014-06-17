@@ -1,0 +1,10 @@
+{
+    "id":"eeprom",
+    "name":"EEPROM",
+    "description":"Provides an object-oriented interface for 2, 3 or 4 pin stepper motors",
+    "tags":["standard","storage"],
+    "source":"ide",
+    "location":"EEPROM",
+    "platforms":["avr"],
+    "homepage":"http://arduino.cc/en/Reference/EEPROM"
+}

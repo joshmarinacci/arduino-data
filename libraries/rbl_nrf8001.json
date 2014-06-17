@@ -1,8 +1,8 @@
 {
     "id":"rbl_nrf8001",
     "name":"Red Bear Labs BLE Shield",
-    "description":"blah",
-    "tags":["ble"],
+    "description":"support for the RedBearLabs Bluetooth Low Energy Shield",
+    "tags":["ble","serial"],
     "source":"git",
     "location":"https://github.com/RedBearLab/nRF8001.git",
     "path":"Arduino/libraries/RBL_nRF8001",

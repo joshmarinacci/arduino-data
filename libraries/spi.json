@@ -2,7 +2,7 @@
     "id":"spi",
     "name":"SPI",
     "description":"Interface with SPI devices: Serial Peripheral Interface",
-    "tags":["standard"],
+    "tags":["standard","serial"],
     "source":"ide",
     "location":"SPI",
     "platforms":["avr"],

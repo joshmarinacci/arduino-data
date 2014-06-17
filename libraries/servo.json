@@ -2,7 +2,7 @@
     "id":"servo",
     "name":"Servo",
     "description":"Control RC (hobby) servo motors",
-    "tags":["standard"],
+    "tags":["standard","motor"],
     "source":"ide",
     "location":"Servo",
     "platforms":["avr"],
