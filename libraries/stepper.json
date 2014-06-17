@@ -1,0 +1,10 @@
+{
+    "id":"stepper",
+    "name":"Stepper",
+    "description":"Controls unipolar and bipolar stepper motors",
+    "tags":["standard","motor"],
+    "source":"ide",
+    "location":"Stepper",
+    "platforms":["avr"],
+    "homepage":"http://arduino.cc/en/Reference/Stepper"
+}
