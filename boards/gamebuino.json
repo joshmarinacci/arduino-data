@@ -1,0 +1,24 @@
+{
+    "name": "Gamebuino",
+    "upload": {
+        "protocol": "arduino",
+        "maximum_size": "30592",
+        "speed": "115200"
+    },
+    "bootloader": {
+        "low_fuses": "0xFF",
+        "high_fuses": "0xDA",
+        "extended_fuses": "0x05",
+        "path": "gamebuino_boot",
+        "file": "gamebuino_boot.hex",
+        "unlock_bits": "0x3F",
+        "lock_bits": "0x0F"
+    },
+    "build": {
+        "mcu": "atmega328p",
+        "f_cpu": "16000000L",
+        "core": "arduino",
+        "variant": "standard"
+    },
+    "id": "gamebuino"
+}
