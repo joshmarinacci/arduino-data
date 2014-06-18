@@ -1,4 +1,5 @@
 {
+    "id": "xadow",
     "name": "Seeeduino Xadow",
     "upload": {
         "protocol": "avr109",
@@ -23,5 +24,26 @@
         "core": "arduino",
         "variant": "leonardo"
     },
-    "id": "xadow"
+
+    "info": {
+        "power": {
+            "operating":3.3,
+            "inputmin":"?",
+            "inputmax":"?"
+        },
+        "memory": {
+            "flash":32,
+            "sram":2.5,
+            "eeprom":1
+        },
+        "clockspeed": "?",
+        "io":{
+            "digital":20,
+            "pwm":7,
+            "analogin":12
+        }
+    },
+    "homepage": "http://www.seeedstudio.com/wiki/Xadow_Main_Board",
+    "vendor":"Seeed Studio"
+
 }

@@ -1,4 +1,5 @@
 {
+    "id": "leonardo",
     "name": "Arduino Leonardo",
     "upload": {
         "protocol": "avr109",
@@ -23,5 +24,24 @@
         "core": "arduino",
         "variant": "leonardo"
     },
-    "id": "leonardo"
+    "info": {
+        "power": {
+            "operating":5,
+            "inputmin":7,
+            "inputmax":12
+        },
+        "memory": {
+            "flash":32,
+            "sram":2.5,
+            "eeprom":1
+        },
+        "clockspeed": 16,
+        "io":{
+            "digital":20,
+            "pwm":7,
+            "analogin":12
+        }
+    },
+    "homepage": "http://arduino.cc/en/Main/arduinoBoardLeonardo",
+    "vendor":"Arduino CC"
 }
