@@ -7,6 +7,6 @@
     "location":"https://github.com/RedBearLab/nRF8001.git",
     "path":"Arduino/libraries/RBL_nRF8001",
     "platforms":["avr"],
-    "dependencies":["nordic_ble_sdk_arduino"],
+    "dependencies":["nordic_ble_sdk_arduino","spi"],
     "homepage":"https://github.com/RedBearLab/nRF8001/"
 }
