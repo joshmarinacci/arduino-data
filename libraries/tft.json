@@ -1,0 +1,10 @@
+{
+    "id":"tft",
+    "name":"TFT",
+    "description":"Enables an Arduino board to communicate with the Arduino TFT LCD screen",
+    "tags":["standard","display","tft"],
+    "source":"ide",
+    "location":"TFT",
+    "platforms":["avr"],
+    "homepage":"http://arduino.cc/en/Reference/TFTLibrary"
+}

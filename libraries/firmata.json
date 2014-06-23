@@ -1,0 +1,10 @@
+{
+    "id":"firmata",
+    "name":"Firmata",
+    "description":"Implements the Firmata protocol for communicating with software on the host computer",
+    "tags":["standard","firmata","firmware"],
+    "source":"ide",
+    "location":"Firmata",
+    "platforms":["avr"],
+    "homepage":"http://arduino.cc/en/Reference/Firmata"
+}

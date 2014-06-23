@@ -1,0 +1,10 @@
+{
+    "id":"ethernet",
+    "name":"Ethernet",
+    "description":"With the Arduino Ethernet Shield, this library allows an Arduino board to connect to the internet",
+    "tags":["standard","ethernet","networking"],
+    "source":"ide",
+    "location":"Ethernet",
+    "platforms":["avr"],
+    "homepage":"http://arduino.cc/en/Reference/Ethernet"
+}

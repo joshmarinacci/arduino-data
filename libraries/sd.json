@@ -1,0 +1,10 @@
+{
+    "id":"sd",
+    "name":"SD",
+    "description":"Allows for reading from and writing to SD cards",
+    "tags":["standard","storage"],
+    "source":"ide",
+    "location":"SD",
+    "platforms":["avr"],
+    "homepage":"http://arduino.cc/en/Reference/SD"
+}
