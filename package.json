@@ -2,5 +2,12 @@
     "name":"arduinodata",
     "description":"computable dataset for Arduino devices and libraries",
     "author": "Josh Marinacci <joshua@marinacci.org>",
-    "version":"0.2.0"    
+    "homepage":"https://github.com/joshmarinacci/arduino-data",
+    "license":"BSD-3-Clause",
+    "repository":"https://github.com/joshmarinacci/arduino-data",
+    "bugs": {
+        "email":"joshua@marinacci.org",
+        "url":"https://github.com/joshmarinacci/arduino-data/issues"
+    },
+    "version":"0.3.0"    
 }
