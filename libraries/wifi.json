@@ -1,0 +1,10 @@
+{
+    "id":"wifi",
+    "name":"WiFi",
+    "description":"With the Arduino WiFi Shield, this library allows an Arduino board to connect to the internet",
+    "tags":["standard","networking","wifi"],
+    "source":"ide",
+    "location":"WiFi",
+    "platforms":["avr"],
+    "homepage":"http://arduino.cc/en/Reference/WiFi"
+}
