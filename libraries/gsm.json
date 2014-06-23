@@ -1,0 +1,10 @@
+{
+    "id":"gsm",
+    "name":"GSM",
+    "description":"With the Arduino GSM Shield, this library enables an Arduino board to do most of the operations you can do with a GSM phone",
+    "tags":["standard","gsm","phone","gprs","networking","sms"],
+    "source":"ide",
+    "location":"GSM",
+    "platforms":["avr"],
+    "homepage":"http://arduino.cc/en/Reference/GSM"
+}
