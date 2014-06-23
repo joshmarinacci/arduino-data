@@ -1,0 +1,10 @@
+{
+    "id":"softwareserial",
+    "name":"SoftwareSerial",
+    "description":"Allows serial communication using additional digital pins",
+    "tags":["standard","serial"],
+    "source":"ide",
+    "location":"SoftwareSerial",
+    "platforms":["avr"],
+    "homepage":"http://arduino.cc/en/Reference/SoftwareSerial"
+}
