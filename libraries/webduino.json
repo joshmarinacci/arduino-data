@@ -1,0 +1,10 @@
+{
+    "id":"webduino",
+    "name":"Webduino",
+    "description":"An extensible web server library for the Arduino using the Wiznet-based Ethernet shields",
+    "tags":["networking","server","http","web"],
+    "source":"git",
+    "location":"https://github.com/sirleech/Webduino.git",
+    "platforms":["avr"],
+    "homepage":"https://github.com/sirleech/Webduino"
+}

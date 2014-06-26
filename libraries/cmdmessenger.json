@@ -1,0 +1,10 @@
+{
+    "id":"cmdmessenger",
+    "name":"CmdMessenger",
+    "description":"A messaging library for the Arduino Platform (and .NET/Mono platform) which uses the serial port as its transport layer",
+    "tags":["networking","serial"],
+    "source":"http",
+    "location":"http://thijs.elenbaas.net/files/CmdMessenger-3.6.zip",
+    "platforms":["avr"],
+    "homepage":"http://thijs.elenbaas.net"
+}

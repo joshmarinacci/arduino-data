@@ -1,0 +1,10 @@
+{
+    "id":"ps2keyboard",
+    "name":"PS2Keyboard",
+    "description":"PS2Keyboard allows you to use a keyboard for user input",
+    "tags":["keyboard","input"],
+    "source":"http",
+    "location":"http://www.pjrc.com/teensy/arduino_libraries/PS2Keyboard.zip",
+    "platforms":["avr"],
+    "homepage":"http://www.pjrc.com/teensy/td_libs_PS2Keyboard.html"
+}
