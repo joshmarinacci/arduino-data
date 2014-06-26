@@ -1,0 +1,10 @@
+{
+    "id":"onewire",
+    "name":"OneWire",
+    "description":"OneWire lets you access 1-wire devices made by Maxim/Dallas, such as temperature sensors and ibutton secure memory",
+    "tags":["networking","onewire"],
+    "source":"http",
+    "location":"http://www.pjrc.com/teensy/arduino_libraries/OneWire.zip",
+    "platforms":["avr"],
+    "homepage":"http://www.pjrc.com/teensy/td_libs_OneWire.html"
+}

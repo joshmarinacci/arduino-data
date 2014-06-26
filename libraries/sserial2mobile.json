@@ -1,0 +1,10 @@
+{
+    "id":"sserial2mobile",
+    "name":"SSoftware2Mobile",
+    "description":"Allows SMS and emailing via mobile phone",
+    "tags":["serial","phone","sms","networking"],
+    "source":"http",
+    "location":"https://sserial2mobile.googlecode.com/files/SSerial2Mobile-1.1.0.zip",
+    "platforms":["avr"],
+    "homepage":"https://code.google.com/p/sserial2mobile/"
+}

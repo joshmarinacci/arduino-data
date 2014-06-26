@@ -1,0 +1,10 @@
+{
+    "id":"serialcontrol",
+    "name":"SerialControl",
+    "description":"Arduino firmware for remote controlling of multiple Arduinos in an XBee peer2peer network",
+    "tags":["networking","firmware","xbee","serial","p2p","remotecontrol"],
+    "source":"http",
+    "location":"https://github.com/UrsusExplorans/SerialControl.git",
+    "platforms":["avr"],
+    "homepage":"https://github.com/UrsusExplorans/SerialControl/"
+}
