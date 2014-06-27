@@ -1,0 +1,43 @@
+{
+    "id": "tinylily",
+    "name": "TinyLily Mini",
+    "upload": {
+        "protocol": "arduino",
+        "maximum_size": "30720",
+        "speed": "57600"
+    },
+    "bootloader": {
+        "low_fuses": "0xFF",
+        "high_fuses": "0xDA",
+        "extended_fuses": "0x05",
+        "path": "atmega",
+        "file": "ATmegaBOOT_168_atmega328_pro_8MHz.hex",
+        "unlock_bits": "0x3F",
+        "lock_bits": "0x0F"
+    },
+    "build": {
+        "mcu": "atmega328p",
+        "f_cpu": "8000000L",
+        "core": "arduino",
+        "variant": "standard"
+    },
+    "info": {
+        "power": {
+            "operating":3.3,
+            "inputmin":2.7,
+            "inputmax":5.5
+        },
+        "memory": {
+            "flash":32,
+            "sram":2,
+            "eeprom":1
+        },
+        "clockspeed": 8,
+        "io":{
+            "digital":8,
+            "analogin":4
+        }
+    },
+    "homepage": "https://tiny-circuits.com/products/tinylily/",
+    "vendor":"TinyCircuits"
+}
