@@ -1,10 +1,10 @@
 {
-    "id": "mega2560",
-    "name": "Arduino Mega 2560 or Mega ADK",
+    "id": "megaADK",
+    "name": "Arduino Mega ADK",
     "upload": {
-        "protocol": "wiring",
+        "protocol": "stk500v2",
         "maximum_size": "258048",
-        "speed": "115200"
+        "speed": "115200",
     },
     "bootloader": {
         "low_fuses": "0xFF",
@@ -19,28 +19,28 @@
         "mcu": "atmega2560",
         "f_cpu": "16000000L",
         "vid": "0x2341",
-        "pid": ["0x0010", "0x0042P"],
+        "pid": ["0x003F", "0x0044"],
         "core": "arduino",
         "variant": "mega"
     },
     "info": {
         "power": {
-            "operating": 5,
-            "inputmin": 7,
-            "inputmax": 12
+            "operating":5,
+            "inputmin":7,
+            "inputmax":12
         },
         "memory": {
-            "flash": 256,
-            "sram": 8,
-            "eeprom": 4
+            "flash":256,
+            "sram":8,
+            "eeprom":4
         },
         "clockspeed": 16,
         "io":{
-            "digital": 54,
-            "pwm": 15,
-            "analogin": 16
+            "digital":54,
+            "pwm":15,
+            "analogin":16
         }
     },
-    "homepage": "http://arduino.cc/en/Main/ArduinoBoardMega2560",
-    "vendor": "Arduino CC"
+    "homepage": "http://arduino.cc/en/Main/ArduinoBoardMegaADK",
+    "vendor":"Arduino CC"
 }
