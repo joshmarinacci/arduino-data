@@ -1,0 +1,32 @@
+{
+    "id": "digispark-pro",
+    "name": "Digispark Pro (16 Mhz)",
+    "upload": {
+        "protocol":              "usb",
+        "maximum_size":          "14844",
+        "speed":                 "115200",
+        "using":                 "micronucleusprog",
+        "tool":                  "micronucleus",
+        "wait_for_upload_port":  false,
+        "use_1200bps_touch":     false,
+        "disable_flushing":      false
+    },
+    "bootloader": {
+        "low_fuses": "0xff",
+        "high_fuses": "0xde",
+        "extended_fuses": "0x05",
+        "path": "optiboot",
+        "file": "optiboot_atmega328.hex",
+        "unlock_bits": "0x3F",
+        "lock_bits": "0x0F"
+    },
+    "build": {
+        "mcu": "attiny167",
+        "f_cpu": "16000000L",
+        "core": "pro",
+        "variant": "pro",
+        "board": "AVR_DIGISPARKPRO"
+    },
+    "homepage": "http://digistump.com/wiki/digispark/tutorials/connectingpro",
+    "vendor":"DigiStump"
+}
