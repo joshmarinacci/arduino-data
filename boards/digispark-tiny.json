@@ -1,0 +1,32 @@
+{
+    "id": "digispark-tiny",
+    "name": "Digispark (Default - 16.5mhz)",
+    "upload": {
+        "protocol":              "usb",
+        "maximum_size":          "6012",
+        "speed":                 "115200",
+        "using":                 "micronucleusprog",
+        "tool":                  "micronucleus",
+        "wait_for_upload_port":  false,
+        "use_1200bps_touch":     false,
+        "disable_flushing":      false
+    },
+    "bootloader": {
+        "low_fuses": "0xff",
+        "high_fuses": "0xde",
+        "extended_fuses": "0x05",
+        "path": "optiboot",
+        "file": "optiboot_atmega328.hex",
+        "unlock_bits": "0x3F",
+        "lock_bits": "0x0F"
+    },
+    "build": {
+        "mcu": "attiny85",
+        "f_cpu": "16500000L",
+        "core": "tiny",
+        "variant": "digispark",
+        "board": "AVR_DIGISPARK"
+    },
+    "homepage": "http://digistump.com/wiki/digispark/tutorials/connectingpro",
+    "vendor":"DigiStump"
+}
