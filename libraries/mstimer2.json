@@ -1,0 +1,10 @@
+{
+	"id":"mstimer2",
+	"name":"MSTimer2",
+	"description":"Lets you periodically run a function, by a configurable number of milliseconds",
+	"tags":["timer"],
+	"source":"http",
+	"location":"http://www.pjrc.com/teensy/arduino_libraries/MsTimer2.zip",
+	"platforms":["avr"],
+	"homepage":"http://www.pjrc.com/teensy/td_libs_MsTimer2.html"
+}

@@ -1,0 +1,10 @@
+{
+	"id":"flexitimer2",
+	"name":"FlexiTimer2",
+	"description":"A version of MsTimer2 which makes the interval resolution configurable, rather than being fixed at 1 millisecond steps",
+	"tags":["timer"],
+	"source":"http",
+	"location":"http://www.pjrc.com/teensy/arduino_libraries/FlexiTimer2.zip",
+	"platforms":["avr"],
+	"homepage":"http://www.pjrc.com/teensy/td_libs_MsTimer2.html"
+}

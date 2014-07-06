@@ -1,0 +1,10 @@
+{
+	"id":"metro_arduino_wiring",
+	"name":"Metro Arduino Wiring",
+	"description":"Facilitates the implementation of recurring timed events",
+	"tags":["time","timer"],
+	"source":"git",
+	"location":"https://github.com/thomasfredericks/Metro-Arduino-Wiring.git",
+	"platforms":["avr"],
+	"homepage":"https://github.com/thomasfredericks/Metro-Arduino-Wiring"
+}
