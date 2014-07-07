@@ -1,0 +1,46 @@
+{
+    "id": "flora",
+    "name": "Adafruit Flora",
+    "upload": {
+        "protocol": "avr109",
+        "maximum_size": "28672",
+        "speed": "57600"
+    },
+    "bootloader": {
+        "low_fuses": "0xff",
+        "high_fuses": "0xd8",
+        "extended_fuses": "0xcb",
+        "path": "caterina",
+        "file": "Caterina-Flora8.hex",
+        "unlock_bits": "0x3F",
+        "lock_bits": "0x2F"
+    },
+    "build": {
+        "mcu": "atmega32u4",
+        "f_cpu": "8000000L",
+        "vid": "0x239A",
+        "pid": "0x8004",
+        "core": "arduino",
+        "variant": "flora"
+    },
+    "info": {
+        "power": {
+            "operating":5,
+            "inputmin":3.5,
+            "inputmax":9
+        },
+        "memory": {
+            "flash":32,
+            "sram":2.5,
+            "eeprom":1
+        },
+        "clockspeed": 16,
+        "io":{
+            "digital":8,
+            "pwm":4,
+            "analogin":4
+        }
+    },
+    "homepage": "https://learn.adafruit.com/getting-started-with-flora/overview",
+    "vendor":"AdaFruit"
+}
