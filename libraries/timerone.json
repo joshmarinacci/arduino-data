@@ -1,0 +1,10 @@
+{
+  "id":"timerone",
+  "name":"TimerOne",
+  "description":"TimerOne lets you use the built-in 16 bit timers to control PWM pins (controls a different set of PWM pins than the TimerThree library)",
+  "tags":["time","timer","interrupt"],
+  "source":"http",
+  "location":"http://www.pjrc.com/teensy/arduino_libraries/TimerOne.zip",
+  "platforms":["avr"],
+  "homepage":"http://www.pjrc.com/teensy/td_libs_TimerOne.html"
+}

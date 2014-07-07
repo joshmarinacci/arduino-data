@@ -19,7 +19,7 @@
         "mcu": "atmega328p",
         "f_cpu": "16000000L",
         "vid": "0x2341",
-        "pid": "0x0043",
+        "pid": ["0x0001", "0x0043"],
         "core": "arduino",
         "variant": "standard"
     },

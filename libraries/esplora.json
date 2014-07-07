@@ -1,0 +1,10 @@
+{
+    "id":"esplora",
+    "name":"Esplora",
+    "description":"The library offers easy access to the data from the onboard Esplora sensors, and provides the ability to change the state of the outputs",
+    "tags":["standard"],
+    "source":"ide",
+    "location":"Esplora",
+    "platforms":["avr"],
+    "homepage":"http://arduino.cc/en/Reference/EsploraLibrary"
+}

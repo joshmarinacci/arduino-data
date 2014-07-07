@@ -1,0 +1,26 @@
+{
+    "id": "gemma",
+    "name": "Adafruit Gemma 8MHz",
+    "upload": {
+        "protocol": "arduino",
+        "maximum_size": "5310",
+        "speed": "115200"
+    },
+    "bootloader": {
+        "low_fuses": "0xF1",
+        "high_fuses": "0xD5",
+        "extended_fuses": "0xFE",
+        "path": "optiboot",
+        "file": "optiboot_atmega328.hex",
+        "unlock_bits": "0x3F",
+        "lock_bits": "0x0F"
+    },
+    "build": {
+        "mcu": "attiny85",
+        "f_cpu": "8000000L",
+        "core": "arduino",
+        "variant": "tiny8"
+    },
+    "homepage": "http://www.adafruit.com/products/1222",
+    "vendor":"Adafruit"
+}

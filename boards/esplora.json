@@ -1,4 +1,5 @@
 {
+    "id": "esplora",
     "name": "Arduino Esplora",
     "upload": {
         "protocol": "avr109",
@@ -23,5 +24,22 @@
         "core": "arduino",
         "variant": "leonardo"
     },
-    "id": "esplora"
+    "info": {
+        "power": {
+            "operating":5,
+            "inputmin":7,
+            "inputmax":12
+        },
+        "memory": {
+            "flash":32,
+            "sram":2.5,
+            "eeprom":1
+        },
+        "clockspeed": 16,
+        "io":{
+            "digital":14,
+            "pwm":6,
+            "analogin":6
+        }
+    }
 }

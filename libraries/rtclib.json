@@ -1,0 +1,10 @@
+{
+    "id":"rtclib",
+    "name":"RTClib",
+    "description":"Real time clock library for Arduino",
+    "tags":["time","timer","clock","rtc"],
+    "source":"git",
+    "location":"https://github.com/adafruit/RTClib.git",
+    "platforms":["avr"],
+    "homepage":"https://github.com/adafruit/RTClib"
+}
