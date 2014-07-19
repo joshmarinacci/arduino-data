@@ -1,0 +1,11 @@
+{
+    "id":"adafruit_motorshield",
+    "name":"Adafruit Motorshield",
+    "description":"Adafruit Motor Shield V2 library",
+    "tags":["motor"],
+    "source":"git",
+    "location":"https://github.com/adafruit/Adafruit_Motor_Shield_V2_Library.git",
+    "platforms":["avr"],
+    "dependencies":["wire"],
+    "homepage":"https://github.com/adafruit/Adafruit_Motor_Shield_V2_Library.git"
+}
