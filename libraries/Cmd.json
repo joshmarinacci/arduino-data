@@ -1,0 +1,10 @@
+{
+    "id":"cmd",
+    "name":"Cmd",
+    "description":"",
+    "tags":["serial"],
+    "source":"git",
+    "location":"https://github.com/joshmarinacci/CmdArduino.git",
+    "platforms":["avr"],
+    "homepage":"http://www.freaklabs.org/index.php/Tutorials/Software/Tutorial-Using-CmdArduino.html"
+}
